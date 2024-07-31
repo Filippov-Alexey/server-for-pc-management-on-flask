@@ -1,0 +1,91 @@
+body{
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background-color: red;
+    top: 0px;
+    bottom: 0px;
+}
+button{
+    border: 0px;
+}
+.num{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+#num-0{
+    width: 48.75%;
+}
+.row{
+    height: 24%;
+    bottom: 0px;
+}
+.row button{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    width: 24%;
+    height: 80%;
+    font-size: 30pt;
+}
+
+.keyboard {
+    display: grid;
+    padding: 0px;
+    font-size: 20pt;
+}
+.keyboard button {
+    padding: 0;
+    width: 5%;
+    height: 40px;
+}
+#Backspace{
+    width: 8%;
+    height: 40px;
+}
+#Space{
+    width: 45.5%;
+    height: 40px;
+}
+#Shift{
+    width: 13%;
+}
+.spec{
+    color: #ccc;
+    width: 7%;
+}
+.active{
+    display: none;
+}
+
+.cont{
+    position: absolute;
+    width: 99%;
+    height: 49%;
+    bottom: 5%;
+}
+.touchpad {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    position: relative;
+}
+#left,#right{
+    border: 0;
+    padding: 0;
+    width: 49%;
+    height: 7%;
+}
+.touchpad-cursor {
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    position: relative;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+.touchpad-info{
+    display: none;
+}
